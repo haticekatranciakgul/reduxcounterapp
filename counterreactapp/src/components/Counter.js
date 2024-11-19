@@ -13,16 +13,16 @@ function Counter() {
     console.log(countValue);
   return (
     <div>
-      <h1>{countValue}</h1>
+      <h1 className='num'>{countValue}</h1>
 
 
-      <button onClick={() => dispatch(decrement())}>Decrement</button>
-      <button onClick={() => dispatch(increment())}>Increment</button>
+      <button className='btn' onClick={() => dispatch(decrement())}>Decrement</button>
+      <button className='btn'  onClick={() => dispatch(increment())}>Increment</button>
 
       <br></br>
       <br></br>
-      <input type='number' value={amount} onChange={(e) => setAmount(e.target.value)}></input>
-      <button onClick={() => dispatch(incrementByAmount(amount))}>Increment by amount</button>
+      <input className='input' type='number' value={amount} onChange={(e) => setAmount(e.target.value)}></input>
+      <button className='btn' onClick={() => dispatch(incrementByAmount(amount))}>Increment by amount</button>
 
 
     </div>

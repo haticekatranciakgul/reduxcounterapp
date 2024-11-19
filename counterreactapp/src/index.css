@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn {
+  background-color: bisque;
+  margin: 10px;
+  border: 1px solid bisque;
+  color: brown;
+  font-size: 20px;
+
+}
+.input{
+  background-color: bisque;
+  margin: 10px;
+  border: 1px solid bisque;
+  color: brown;
+  font-size: 30px;
+}
+
+.num{
+  color: brown;
 }
